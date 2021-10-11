@@ -2,69 +2,104 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<title>Design001</title>
+	<title>Elijah Eze | Web And Software Developer</title>
 	<link rel="stylesheet" type="text/css" href="css/css.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/normalize.css"> -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-5.0.0-beta1/dist/css/bootstrap.min.css">
-	<!-- <link rel="stylesheet" type="text/css" href="css/bootsrap-glyphicons.css"> -->
 	<link rel="stylesheet" type="text/css" href="webfonts/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/boxicons/css/boxicons.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/icofont/icofont.min.css">
 	<script src="script/jquery-3.5.1.js"></script>
 </head>
 <body>
-	<section id="main">
-		<aside class="psuedo" id="ps-top">
-			<img src="img/circle-red.svg">
-		</aside>
-		<section id="elt-intro">
-			<div id="mood-box">
-				<span class="fa fa-moon-o"></span>
-				<!-- <span class="fa fa-sun-o"></span> -->
-			</div>
+	<div class="ld"></div>
+
+	<div id="top-full"> 
+		<div id="nav-resp-ico">
+			<span class="icofont-navigation-menu"></span>
+		</div>
+		<div id="mood-box" tabindex="2" style="z-index: 200">
+			<span class="fa fa-sun-o"></span>
+		</div>
+	</div>
+	<section id="main" class="animate__animated animate__fadeIn">
+		<section id="nav-resp-view" class="animate__animated">
+			<nav open='false' id="nav-resp">
+				<li class="resp-active"><span class="bx bx-home"></span>Home</li>
+				<li><span class="bx bx-user"></span>About</li>
+				<li><span class="bx bx-book-content"></span>Portfolio</li>
+			</nav>
 		</section>
-		<div id="sm">
-			<!-- <aside>
-			</aside> -->
-			
-			<div id="f-rht">
-				<div class="dp" dir="rtl"></div>
-			</div>
+		<aside class="psuedo" id="ps-top">
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
+		</aside>
+		
+		<section id="nav" class="">
+			<nav class="nav">
+				<ol>
+					<li tabindex="3" aria-role='Home' class="active"><span class="bx bx-home"></span><span class="txt">Home</span></li>
+					<li tabindex="4" aria-role='About'><span class="bx bx-user"></span><span class="txt">About</span></li>
+					<li tabindex="5" aria-role='Portfolio'><span class="bx bx-book-content"></span><span class="txt">Portfolio</span></li>
+				</ol>
+			</nav>
+		</section>
+		<div class="sm">
 			<div id="f-left">
-				<section id="nav">
-					<nav class="nav">
-						<ol>
-							<li class="active"><span class="fa fa-home"></span></li>
-							<li><a href="https://github.com/byt-32"><span class="fa fa-github"></span></li></a>
-							<li><span class="fa fa-slack"></span></li>
-							<li><span class="fa fa-twitter"></span></li>
+				
+				<section class="page">
+					<header class="animate__animated">
+						<h1 class="h1 ">Elijah Eze</h1>
+						<p>Hi, I am a 19yr/o web and software developer based in Nigeria, passionate about working on great projects.</p>
+						<ol class="social flex">
+							<li><a href="https://www.twitter.com/"><span class="bx bxl-twitter"></span></a></li>
+							<li><a href="https://www.facebook.com"><span class="bx bxl-facebook"></span></a></li>
+							<li><a href="https://www.linkedin.com"><span class="bx bxl-linkedin"></span></a></li>
+							<li><a href="https://www.slack.com"><span class="bx bxl-slack"></span></a></li>
 						</ol>
-					</nav>
-				</section>
-				<section id="page">
-					<header>
-						<h1 class="h1">Elijah Eze</h1>
-						<p>Hi, I am a Nigeria based frontend web developer focused on crafting user-friendly experiences and solving problems using web technologies.</p>
 					</header>
-					<div id="cta01" class="clear">
-						<button>Projects</button>
-						<button class="bg-red">Hire Me</button>
+					<div id="cta01" class="clear flex">
+						<button><span class='in-btn animate__animated'> Projects</span></button>
+						<button class="bg-red animate__animated"><span class='in-btn'> Hire Me</span></button>
 					</div>	
 				</section>
+				
+			</div>
+			<div id="img-center">
+				<div id="f-rht">
+					<div class="dp animate__animated animate__zoomIn animate_delay-3s " dir="rtl"></div>
+				</div>
 			</div>
 			<aside class="psuedo" id="ps-rt">
-				<img src="img/circle-dark.svg">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.3 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8z" /></svg>
 			</aside>
 		</div>
+		<div class="sm sm-btn">
+			<section class="abt page">
+				<header>
+					<div class="abt_wrap">
+						<h2>About me</h2>
+						<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</header>
+			 </section>
+		</div>
+		
 		<section id="ft">
 			<footer>
 				<form id="form" role="form" method="POST">
 					
 					<div class="form-group"><legend>Mail Me</legend></div class="form-group">
 					
-					<div class="form-group" class="list-unstyled list-inline"><input type="mail" name="mail-address" 
-						placeholder="Your Email" id="fmail" class="form-control"></div class="form-group">
+					<div class="form-group" class="list-unstyled list-inline"><input type="mail" pattern="[[a-z]]" name="mail" 
+						placeholder="Your Email" id="fmail" class="form-control" required></div>
 					
 					<div class="form-group" class="list-unstyled list-inline"><textarea placeholder="Your Message" name="
-						message" class="form-control"></textarea></textarea></div>
+						message" class="form-control" required></textarea></textarea></div>
 					<div class="form-group"><button class="btn btn-sm bg-red" type="submit">Send</button></div>
 				</form>
 			</footer>
